@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Aora",
+    "slug": "aora",
+    "scheme":"aora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    
+    "userInterfaceStyle": "light",
+   
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+   
+    
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
