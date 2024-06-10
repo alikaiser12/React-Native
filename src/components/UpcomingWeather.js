@@ -1,13 +1,10 @@
 import React from "react";
-import { Text, SafeAreaView, StyleSheet } from "react-native";
-import { StatusBar } from "react-native";
-
-<StatusBar barStyle="dark-content" />;
+import { SafeAreaView, StyleSheet, Text, StatusBar } from "react-native";
 
 const UpcomingWeather = () => {
   return (
-    <SafeAreaView syles={styles.container}>
-      <Text>Upcoming Weather</Text>
+    <SafeAreaView style={styles.container}>
+      <Text>UpcomingWeather</Text>
     </SafeAreaView>
   );
 };
@@ -15,7 +12,7 @@ const UpcomingWeather = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "white",
+    marginTop: StatusBar.currentHeight,
   },
 });
 
